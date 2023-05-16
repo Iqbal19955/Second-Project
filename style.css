@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    margin: 0 auto;
+    background-color: beige;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+section{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+header .menu{
+width: 60%;
+height: 100px;
+margin-right: -100px;
+}
+.menu ul{
+    margin: 0%;
+    padding-top: 20px;
+}
+.menu ul li{
+    list-style: none;
+    float: left; 
+    padding: 20px;
+    
+}
+.menu ul li a{ 
+text-decoration: none; 
+color: black;
+font-weight: bolder;
+}
