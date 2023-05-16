@@ -2,6 +2,7 @@ body{
     margin: 0 auto;
     padding: 0;
 }
+/*Header Start*/
 
 header{
     margin: 0 auto;
@@ -9,33 +10,48 @@ header{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-section{
+.nav{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     width: 1000px;
+    padding: 10px;
 }
 .logo img{
     width: 100px;
-    height: 100px;
+    height: 70px;
 }
 header .menu{
 width: 60%;
-height: 100px;
+height: 70px;
 margin-right: -100px;
 }
 .menu ul{
     margin: 0%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .menu ul li{
     list-style: none;
     float: left; 
-    padding: 20px;
-    
+    padding: 20px;    
 }
 .menu ul li a{ 
 text-decoration: none; 
 color: black;
 font-weight: bolder;
+}
+/*Header End*/
+
+/*Main Start*/
+main{
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    font-size: 65px;
+}
+span{
+    color: rgb(0, 26, 255);
 }
