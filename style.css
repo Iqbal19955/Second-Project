@@ -97,6 +97,7 @@ color: red;
 /*Card Start*/
 .card-item1{
     display: flex;
+    padding-bottom: 30px;
 }
 .card-item1 .card-item{
 width: 30%;
@@ -130,5 +131,38 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8p
     cursor: pointer;
 
 }
-
-
+.card-item1 .card-item img:hover{
+    background-color: cadetblue;
+}
+/*Card End*/
+/*Footer Start*/
+footer{
+    margin: 0 auto;
+    background-color: beige;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding-bottom: 20px;
+}
+footer .footer1{
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul{
+    width: 20%;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.special{
+    color: blue;
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    display: block;
+}
