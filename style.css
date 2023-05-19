@@ -126,14 +126,14 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8p
 
 }
 .card-item:hover{
-    background: cadetblue;
+    background: rgb(243, 255, 200);
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 10;
+    width: 32%;
+}
 
-}
-.card-item1 .card-item img:hover{
-    background-color: cadetblue;
-}
 /*Card End*/
 
 /*Footer Start*/
