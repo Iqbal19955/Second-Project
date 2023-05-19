@@ -37,7 +37,7 @@ margin-right: -100px;
 }
 .menu ul li a{ 
 text-decoration: none; 
-color: black;
+color: rgb(0, 0, 0);
 font-weight: bolder;
 }
 /*Header End*/
@@ -47,11 +47,88 @@ main{
     margin: 0 auto;
     width: 1000px;
     padding: 10px;
-    text-align: center;
 }
 h2{
     font-size: 65px;
+    margin: 30px;
+    text-align: center;
+
 }
 span{
     color: rgb(0, 26, 255);
 }
+p1{
+    display: block;
+    margin-top: 50px;
+    font-size: 20px;
+    color: chartreuse;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.area1 img{
+    width: 100%;
+    height: 500px;
+}
+/*Success Start*/
+
+.success{
+    display: flex;
+}
+.success .right{
+width: 45%;
+
+}
+.success .left{
+    width: 45%; 
+    text-align: right;
+}
+
+.success .left h2{
+text-align: right;
+color: red;
+}
+.success .right h2{
+    text-align: left;
+    font-size: 55px;
+}
+/*Success End*/
+
+/*Card Start*/
+.card-item1{
+    display: flex;
+}
+.card-item1 .card-item{
+width: 30%;
+margin-top: 100px;
+margin-bottom: 10px;
+margin-left: 20px;
+padding: 5px;
+box-sizing: border-box;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+.card-item1 .card-item img{
+    width: 100%;
+    height: 250px;
+    
+}
+.card-item1 .card-item h3{
+    color: brown;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+.card-item1 .card-item p{
+    text-align: justify;
+
+}
+.card-item:hover{
+    background: cadetblue;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
